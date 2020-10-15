@@ -1,5 +1,12 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <router-link to="/">跳转</router-link>
   </div>
 </template>
+<style scoped>
+.about{
+  height: 100%;
+  background: pink;
+}
+
+</style>
